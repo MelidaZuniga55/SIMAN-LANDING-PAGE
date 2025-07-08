@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Promociones</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Siman | Promociones</title>
+  <meta name="description" content="Ofertas y promociones exclusivas de Siman El Salvador. Descubre las mejores ofertas en ropa, perfumes, electrónica y más." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  
+
+  <!-- Navbar -->
+  <nav class="navbar" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand" href="inicio.html">
+        <img src="img/SimanIcon.png" alt="Siman Logo" width="40" height="40" />
+        <span>Siman El Salvador</span>
+      </a>
+      <button class="navbar-toggler" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">&#9776;</button>
+      <div class="navbar-collapse" id="menu-principal">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="promociones.html">Promociones</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" style="background-image: url('img/hero-promos.jpg');">
+    <div class="hero-content">
+      <h1>¡Descuentos que No Puedes Perderte!</h1>
+      <p>Aprovecha las mejores ofertas por tiempo limitado.</p>
+      <a href="#ofertas" class="btn btn-primary">Explorar Promociones</a>
+    </div>
+  </header>
+
+  <main class="container" role="main" id="ofertas">
+
+    <!-- Ropa -->
+    <section class="promociones-categoria">
+      <h2 class="section-title">Promociones en Ropa</h2>
+      <div class="promociones-grid">
+        <article class="promocion-card" tabindex="0">
+          <img src="img/Oferta1.png" alt="Ropa con descuento" class="promocion-img" />
+          <div class="promocion-info">
+            <h3>Ropa Seleccionada</h3>
+            <p>50% de descuento en prendas seleccionadas. ¡Hasta agotar existencias!</p>
+          </div>
+        </article>
+
+        <article class="promocion-card" tabindex="0">
+          <img src="img/oferta3.png" alt="Zapatos en promoción" class="promocion-img" />
+          <div class="promocion-info">
+            <h3>Zapatos 2x1</h3>
+            <p>Llévate dos pares por el precio de uno. Válido solo esta semana.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Perfumería -->
+    <section class="promociones-categoria">
+      <h2 class="section-title">Perfumería</h2>
+      <div class="promociones-grid">
+        <article class="promocion-card" tabindex="0">
+          <img src="img/oferta2.png" alt="Perfumes 2x1" class="promocion-img" />
+          <div class="promocion-info">
+            <h3>Perfumes 2x1</h3>
+            <p>Compra uno y llévate otro gratis. Solo por este mes.</p>
+          </div>
+        </article>
+
+        <article class="promocion-card" tabindex="0">
+          <img src="img/oferta4.png" alt="Set de fragancias" class="promocion-img" />
+          <div class="promocion-info">
+            <h3>Set de Fragancias</h3>
+            <p>30% de descuento en sets de regalo seleccionados.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Electrónica -->
+    <section class="promociones-categoria">
+      <h2 class="section-title">Electrónica</h2>
+      <div class="promociones-grid">
+        <article class="promocion-card" tabindex="0">
+          <img src="img/oferta5.png" alt="Auriculares inalámbricos" class="promocion-img" />
+          <div class="promocion-info">
+            <h3>Auriculares Inalámbricos</h3>
+            <p>Descuento del 20% en marcas seleccionadas.</p>
+          </div>
+        </article>
+
+        <article class="promocion-card" tabindex="0">
+          <img src="img/oferta6.png" alt="Smartwatches en promoción" class="promocion-img" />
+          <div class="promocion-info">
+            <h3>Smartwatches</h3>
+            <p>Hasta 35% menos en modelos seleccionados.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <small>&copy; 2025 Siman El Salvador. Todos los derechos reservados.</small>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
