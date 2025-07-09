@@ -625,3 +625,83 @@ a {
     max-width: 100%; /* Máximo ancho en móviles */
   }
 }
+/* Reemplaza los estilos responsive del navbar con estos: */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 1.5rem; /* Más espacio interno */
+  }
+  
+  .navbar-brand {
+    padding: 0.8rem 0;
+    font-size: 1.3rem; /* Texto más grande */
+  }
+  
+  .navbar-toggler {
+    padding: 1rem;
+    font-size: 2rem; /* Icono más grande */
+  }
+  
+  .navbar-collapse {
+    padding: 1rem 0;
+    background-color: rgba(168, 51, 56, 0.95); /* Fondo semitransparente */
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 1.2rem 2rem; /* Más espacio alrededor */
+    margin: 0.5rem 1rem; /* Más separación */
+    font-size: 1.2rem; /* Texto más grande */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Separador visual */
+    display: flex;
+    align-items: center;
+    min-height: 50px; /* Altura mínima para cada enlace */
+  }
+  
+  .navbar-nav .nav-link:last-child {
+    border-bottom: none;
+  }
+  
+  .navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+/* Reemplaza los estilos responsive del navbar con estos: */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 1.5rem; /* Más espacio interno */
+  }
+  
+  .navbar-brand {
+    padding: 0.8rem 0;
+    font-size: 1.3rem; /* Texto más grande */
+  }
+  
+  .navbar-toggler {
+    padding: 1rem;
+    font-size: 2rem; /* Icono más grande */
+  }
+  
+  .navbar-collapse {
+    padding: 1rem 0;
+    background-color: rgba(168, 51, 56, 0.95); /* Fondo semitransparente */
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 1.2rem 2rem; /* Más espacio alrededor */
+    margin: 0.5rem 1rem; /* Más separación */
+    font-size: 1.2rem; /* Texto más grande */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Separador visual */
+    display: flex;
+    align-items: center;
+    min-height: 50px; /* Altura mínima para cada enlace */
+  }
+  
+  .navbar-nav .nav-link:last-child {
+    border-bottom: none;
+  }
+  
+  .navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
